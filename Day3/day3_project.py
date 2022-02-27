@@ -50,9 +50,11 @@ if the_start == "left":
         print("You begin your way across the lake, you have plenty of energy and actually starting to enjoy the swim! "
               "But you notice a shark (in a lake?) and it's aware of your presence. You're in the middle of the lake, "
               "you can't really do much really. You die... \nGame Over!")
+    else:
+        print("Congratulations, you mistyped and killed yourself. \nGame Over!")
 
 elif the_start == "right":
     print("You cautiously make your way through the woods, where you come across a raging bear. You do your best to "
           "run back the way you came from but the bear outpaces you, and you eventually meet your doom. \nGame Over!")
 else:
-    print("Game Over.")
+    print("Congratulations, you mistyped and killed yourself. \nGame Over!")
